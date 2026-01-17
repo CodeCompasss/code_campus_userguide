@@ -47,6 +47,6 @@ This is the most impactful way to contribute! However, we have **strict quality 
 
 ---
 
-By contributing, you agree that your contributions will be licensed under the project's PolyForm Noncommercial License 1.0.0.
+By contributing, you agree that your contributions will be licensed under the project's CodeCompass Personal Use License.
 
 Happy coding! 🚀
