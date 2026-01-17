@@ -1,6 +1,6 @@
 # 🚀 CodeCampus OS — Official User Guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm_Noncommercial-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/CodeCompasss/code_campus_userguide/deploy.yml?branch=main)](https://github.com/CodeCompasss/code_campus_userguide/actions)
 [![Stars](https://img.shields.io/github/stars/CodeCompasss/code_campus_userguide?style=social)](https://github.com/CodeCompasss/code_campus_userguide/stargazers)
 
@@ -70,7 +70,7 @@ If you find this guide helpful, please **give us a star on GitHub!** It helps mo
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the PolyForm Noncommercial License 1.0.0. See `LICENSE` for more information. For commercial inquiries, contact the maintainer.
 
 ---
 
