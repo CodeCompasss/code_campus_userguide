@@ -1,4 +1,4 @@
-# fd (Simple, Fast and User-friendly Alternative to 'find')
+# fd 
 
 ### What is it?
 

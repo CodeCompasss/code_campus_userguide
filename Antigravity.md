@@ -1,127 +1,146 @@
+
+
 # CodeCampus OS — Official User Guide Specification
 
 ## Purpose
 
-This document defines the writing standards for the CodeCampus OS User Guide.
+This document defines the official writing standards for the **CodeCampus OS User Guide**.
 
 The guide is designed for:
-- Beginner software engineers
-- Computer Science & Engineering (CSE) students
-- Self-learners who are new to Linux-based development environments
 
-The goal is **not** to simply list tools, but to teach students:
-- What each tool is
-- Why it exists
-- How it is used in real-world software development workflows
+* Beginner software engineers
+* Computer Science & Engineering (CSE) students
+* Self-learners who are new to Linux-based development environments
 
-CodeCampus differentiates itself from other setups (such as Omakub) by providing:
-- Deep, student-focused explanations
-- Clear installation instructions for multiple Linux distributions
-- Practical guidance instead of surface-level descriptions
+The goal is **not** to simply list tools or provide installation instructions. Instead, the guide must teach students:
+
+* What each tool is
+* Why the tool exists
+* How it is actually used in real-world development workflows, with concrete examples
+
+CodeCampus OS differentiates itself from other setups by emphasizing:
+
+* Deep, student-focused explanations
+* Clear installation instructions for multiple Linux distributions
+* Practical, hands-on guidance instead of surface-level descriptions
 
 ---
 
 ## Writing Style Rules
 
-- Clear, direct, and professional
-- Beginner-friendly, but **never dumbed down**
-- No marketing language
-- No generic or AI-style filler content
-- Prefer explanations over buzzwords
-- Assume curiosity and willingness to learn, not prior expertise
+Content must follow these principles:
+
+* Clear, direct, and professional
+* Beginner-friendly, but **never dumbed down**
+* No marketing language or vague buzzwords
+* No generic filler content
+* Prefer **explanations over definitions**
+* Assume readers are curious and motivated, but may have minimal prior knowledge
+
+The writing should feel like a mentor guiding the student step-by-step, not like a technical reference sheet or promotional page.
 
 ---
 
 ## Required Structure for Every Tool Section
 
-Every tool **must** follow the structure below exactly.
+Every tool section **must** follow the structure below exactly.
+The goal is to ensure that beginners can **understand, install, and start using the tool immediately**, with real examples.
 
 ---
 
 ## Tool Name
 
-Use a clear and descriptive main heading.
+Use a clear Markdown heading.
 
 Example:
+
 ```markdown
 ## Git
-````
+```
 
 ---
 
 ### What is it?
 
-Explain:
+Explain in beginner-friendly language:
 
 * What the tool is
 * What problem it solves
 * Where it fits in the software development ecosystem
 
-This section must be understandable to a first-year CS student with minimal prior exposure.
+This section should provide a **conceptual understanding**, so a first-year CS student can answer:
+*"What does this tool do, and why would I need it?"*
 
 ---
-### Installation (Optional)
 
-!!! note
-    CodeCampus OS includes this tool by default.
-    Use the commands below only if installing on another distribution.
+### Installation
+
+Provide installation instructions for each supported Linux distribution using this format:
+it is mkdocs tab (horizontal tabs)
 
 === "Ubuntu / Debian"
-    ```bash
-    sudo apt install git
-    ```
+
+```bash
+sudo apt install git
+```
 
 === "Arch / Manjaro"
-    ```bash
-    sudo pacman -S git
-    ```
+
+```bash
+sudo pacman -S git
+```
 
 === "Fedora"
-    ```bash
-    sudo dnf install git
-    ```
+
+```bash
+sudo dnf install git
+```
 
 === "openSUSE"
-    ```bash
-    sudo zypper install git
-    ```
+
+```bash
+sudo zypper install git
+```
+
+Do not include commentary in this section; it is purely for installation commands.
+
+---
 
 ### Why this tool matters (In Depth)
 
-This is the **most important section**.
-
-Explain in detail:
+This is the **most important section**. Explain thoroughly:
 
 * Why students should care about this tool
 * How it improves productivity or understanding
-* What problems students will face without it
-* Where and how it is used in real-world projects
+* Common problems students face without it
+* Real-world scenarios where professionals use it
 
-Write this as a thoughtful explanation, not bullet-point hype.
+**The explanation must go beyond surface-level descriptions**, including examples of typical beginner mistakes and why using the tool correctly matters.
 
 ---
 
 ### How students will actually use it
 
-Explain:
+This section must include **concrete, beginner-friendly examples**, such as:
 
-* Common real-world usage scenarios
-* Typical beginner-level workflows or commands
-* How the tool fits into daily development work
+* Real-world workflows or tasks a student might perform
+* Example commands with detailed explanations of **what they do and why they are used**
+* Screenshots or textual descriptions of expected outputs (if applicable)
+* Step-by-step mini-tutorials that a student can try immediately
 
-If commands are shown, clearly explain **what each command does and why it is used**.
+It should answer: *“If I open this tool right now, what should I do first, and how does it fit into my workflow?”*
 
 ---
 
-### Professional Insight (Top 1% Knowledge)
+### Professional Insight
 
-Provide insight that:
+Provide guidance that goes beyond beginner usage:
 
-* Beginners usually do not know
-* Reflects how experienced engineers think about this tool
-* Helps students avoid common mistakes or bad habits
+* Explain insights that **experienced engineers know** but beginners often miss
+* Warn about common pitfalls or bad habits
+* Highlight ways to use the tool **effectively for learning and professional workflows**
 
-This section should feel like advice from a senior engineer or mentor.
+This section should feel like advice from a senior engineer or mentor, helping the student build correct habits early.
 
 ---
 
@@ -130,18 +149,18 @@ This section should feel like advice from a senior engineer or mentor.
 * Use Markdown headings only
 * Use tables **only** for installation instructions
 * Avoid emojis
-* Avoid unnecessary bullet lists
-* Prefer clear paragraphs and explanations
+* Avoid unnecessary bullet lists (unless they clarify a step-by-step workflow)
+* Prefer clear paragraphs with **in-depth explanations**
 
 ---
 
 ## End Goal
 
-After reading a tool section, a student should:
+After reading a tool section, a student should be able to:
 
 * Understand **why** the tool exists
 * Know **how** to install it on their Linux distribution
-* Know **when and how** to use it correctly
-* Feel confident exploring the tool further on their own
-
+* Know **how to start using it immediately**, with practical beginner examples
+* Understand common pitfalls and professional usage habits
+* Feel confident exploring the tool further independently
 

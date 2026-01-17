@@ -1,8 +1,8 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: UserGuide CodeCampusOs
+site_url: https://codecompasss.github.io/code_campus_userguide/
 
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: code_campus_userguide
+repo_url: https://github.com/CodeCompasss/code_campus_userguide
 
 theme:
   name: material
@@ -100,3 +100,90 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Philosophy: getting-started/philosophy.md
+      - Index: getting-started/index.md
+      - Hotkeys: getting-started/hotkeys.md
+      - Clipboard: getting-started/clipboard.md
+      - Tiling: getting-started/Tiling.md
+
+  - Desktop:
+      - Launchers: Desktop/launchers/ulancher.md
+      - Learning:
+          - CodeCompass: Desktop/learning/codecompass.md
+          - DistroSea: Desktop/learning/distrosea.md
+          - Education: Desktop/learning/education.md
+          - Game: Desktop/learning/game.md
+          - Interview: Desktop/learning/interview.md
+          - Tipp10: Desktop/learning/tipp10.md
+      - Media:
+          - Communication: Desktop/media/communication.md
+          - VLC: Desktop/media/vlc.md
+      - Productivity:
+          - Obsidian: Desktop/productivity/obsidian.md
+          - Fluent Reader: Desktop/productivity/fluent-reader.md
+          - Readest: Desktop/productivity/readest.md
+          - Thunderbird Mail: Desktop/productivity/thunderbirdmail.md
+      - System:
+          - Remmina: Desktop/system/remmina.md
+          - Timeshift: Desktop/system/timeshift.md
+          - VirtualBox: Desktop/system/virtualbox.md
+      - Utilities:
+          - Flameshot: Desktop/utilities/flameshot.md
+          - SafeEyes: Desktop/utilities/safeeyes.md
+          - Stacer: Desktop/utilities/stacer.md
+          - Czkawka: Desktop/utilities/Czkawka.md
+
+  - Development:
+      - Editors:
+          - VSCode: Development/editors/vscode.md
+          - Neovim: Development/editors/neovim.md
+          - Spyder: Development/editors/spyder.md
+      - Tooling:
+          - GitHub CLI: Development/tooling/githubcli.md
+          - Docker: Development/tooling/docker.md
+          - Postman: Development/tooling/postman.md
+          - Mise: Development/tooling/mise.md
+      - Legacy: Development/legacy/dosbox.md
+
+  - Terminal:
+      - Shell:
+          - Index: Terminal/shell/index.md
+          - Zsh: Terminal/shell/zsh.md
+          - Git Alias: Terminal/shell/git-alias.md
+          - Zellgi: Terminal/shell/zellgi.md
+          - Essential Libraries: Terminal/shell/essential_libraies.md
+      - CLI Tools:
+          - Bat: Terminal/cli-tool/bat.md
+          - Fd: Terminal/cli-tool/fd.md
+          - Ripgrep: Terminal/cli-tool/ripgrep.md
+          - FFmpeg: Terminal/cli-tool/ffmpeg.md
+          - Eza: Terminal/cli-tool/eza.md
+          - Fzh: Terminal/cli-tool/fzh.md
+          - Pandoc: Terminal/cli-tool/pandoc.md
+          - Plocate: Terminal/cli-tool/plocate.md
+          - TLDR: Terminal/cli-tool/tldr.md
+          - Zoxide: Terminal/cli-tool/zoxide.md
+      - TUI:
+          - Index: Terminal/tui/index.md
+          - LazyGit: Terminal/tui/lazygit.md
+          - LazyVim: Terminal/tui/lazyvim.md
+          - LazyDocker: Terminal/tui/lazydocker.md
+          - Btop: Terminal/tui/btop.md
+          - Fastfetch: Terminal/tui/fastfetch.md
+      - Services:
+          - SSH: Terminal/services/ssh.md
+          - MySQL: Terminal/services/mysql.md
+      - Legacy: Terminal/legacy/flex_bison.md
+      - Index: Terminal/index.md
+
+  
+
+  - System Tools:
+      - Power Management: system-tools/power-management.md
+      - Extension: system-tools/extenstion.md
+      - Language: system-tools/lanugage.md
+
+  - Bug Fix: bug-fix/CodeCampusTest3.md
