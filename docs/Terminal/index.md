@@ -21,7 +21,7 @@ This documentation is divided into specialized categories to help you master eve
 *   **[Shell Environment](shell/index.md):** Configuring Zsh, Oh My Zsh, and Powerlevel10k for a high-information, automated shell experience.
 *   **[CLI Tools](cli-tool/fd.md):** Mastering modern, high-speed utilities for file searching (`fd`, `ripgrep`), metadata management (`ffmpeg`, `pandoc`), and filesystem navigation (`eza`, `zoxide`).
 *   **[Terminal UIs (TUIs)](tui/index.md):** Exploring immersive, keyboard-centric environments for Git (`lazygit`), Docker (`lazydocker`), and system monitoring (`btop`).
-*   **[Productivity & Editors](productivity/neovim.md):** Diving into Neovim and Zellij for a professional, modal-editing development workspace.
+*   **[Productivity & Editors](../Development/editors/neovim.md):** Diving into [Neovim](../Development/editors/neovim.md) and [Zellij](shell/zellgi.md) for a professional, modal-editing development workspace.
 *   **[Services](services/ssh.md):** Understanding the fundamental network protocols like SSH and database services like MySQL.
 
 ### Professional Insight (Top 1% Knowledge)
