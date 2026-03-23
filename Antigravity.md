@@ -130,17 +130,7 @@ This section must include **concrete, beginner-friendly examples**, such as:
 
 It should answer: *“If I open this tool right now, what should I do first, and how does it fit into my workflow?”*
 
----
 
-### Professional Insight
-
-Provide guidance that goes beyond beginner usage:
-
-* Explain insights that **experienced engineers know** but beginners often miss
-* Warn about common pitfalls or bad habits
-* Highlight ways to use the tool **effectively for learning and professional workflows**
-
-This section should feel like advice from a senior engineer or mentor, helping the student build correct habits early.
 
 ---
 
