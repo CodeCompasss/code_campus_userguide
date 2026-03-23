@@ -21,11 +21,3 @@ This section is organized to help you move from a basic understanding to profess
 *   **[Zsh, Oh My Zsh, and Powerlevel10k](zsh.md):** Configuring your primary interface for maximum visual feedback and speed.
 *   **[Git Aliases](git-alias.md):** Streamlining your version control workflow by creating custom shortcuts for complex Git commands.
 *   **[Essential Libraries](essential_libraies.md):** Understanding the underlying system libraries that provide the power for many of your terminal tools.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive developers treat their shell configuration as a **personalized development platform**. A professional habit is the rigorous use of **environment variables** and **path management**. By mastering how the shell finds and executes programs, senior engineers can maintain multiple versions of compilers and tools simultaneously without conflict.
-
-They also understand the difference between **Interactive Shells** and **Login Shells**. This knowledge allows them to correctly configure their `.zshrc` and `.zprofile` so that their environment remains consistent whether they are working on a local laptop or logging into a remote server via SSH.
-
-The "Top 1%" insight is the use of the **shell as a diagnostic bridge**. When an application fails, the shell provides the tools (like `strace` or `lsof`) to see exactly what the program was doing at the moment of failure. Mastering the shell means moving beyond "running commands" to "observing systems." Finally, remember that your shell environment should be portable. Most professionals store their configuration in a Git repository (often called "dotfiles"), allowing them to recreate their entire workspace on a new machine in a matter of seconds.

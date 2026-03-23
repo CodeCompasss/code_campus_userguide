@@ -44,11 +44,3 @@ Students will use Neovim as their primary or secondary code interaction tool:
 *   **Remote Development:** Editing code directly on remote servers or cloud instances via SSH, providing a consistent experience regardless of where the code lives.
 *   **IDE Integration:** Using Neovim (or Vim) plugins inside editors like VS Code or IntelliJ to bring the speed of modal editing to their existing GUI-based workflows.
 *   **Building a Personalized Environment:** Iteratively configuring their `init.lua` to add features like fuzzy-finding, custom themes, and project-specific keybindings.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of Neovim power users treat their editor as a **bespoke development operating system**. A professional habit is the deep integration of **LSP (Language Server Protocol) and Treesitter**. Instead of relying on regex for syntax highlighting or navigation, Neovim uses Treesitter to build a concrete syntax tree of the code, allowing for "semantic" motions (e.g., jumping to the next function definition) that are 100% accurate.
-
-Another high-level skill is the use of **Macros and Registers**. A senior engineer can record a complex sequence of edits once (e.g., transforming a list of variables into a JSON object) and replay it hundreds of times instantly using a single key. They also leverage the "Jump List" and "Change List" to navigate through their editing history as if they were moving through a physical space.
-
-The "Top 1%" insight is the **philosophy of "The Sharpened Saw."** A professional doesn't just "use" Neovim; they constantly refine it. They use tools like `lua-language-server` to write their own editor functions, automating repetitive tasks specific to their company's architecture. They also understand that the terminal is the "universal interface"—by mastering Neovim, they become equally productive on a local workstation, a high-performance cluster, or a Raspberry Pi. Finally, remember that your configuration is a living document; the goal is not to have a "perfect" setup, but to have a setup that is perfectly aligned with your current needs at any given moment.

@@ -44,11 +44,3 @@ Students will use ripgrep to rapidly query their projects and navigate technical
 *   **Contextual Analysis:** Viewing lines before and after a match to understand the surrounding logic (`rg -C 3 "error_handler"`).
 *   **Case-Insensitive Discovery:** Finding a term regardless of its casing when the exact naming convention is forgotten (`rg -i "setup"`).
 *   **Piping to Other Tools:** Using ripgrep as a filter in a larger command chain, such as finding files containing a pattern and then opening them in an editor.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of developers treat ripgrep not just as a standalone tool, but as a **search engine for their entire environment**. A professional habit is to integrate ripgrep into their editor (like Neovim or VS Code) to power the "Find in Files" functionality, ensuring that their editor remains as fast as the CLI.
-
-Another high-level trick is the use of the **`--files-without-match`** flag to identify components that are *missing* a required boilerplate or license header. Senior engineers also leverage ripgrep's **multithreading** capabilities. While ripgrep is parallel by default, understanding how to tune it for specific hardware or very large datasets (like millions of lines of logs) is a key differentiator in systems engineering.
-
-The "Top 1%" insight is the use of **fixed-string searching** (`rg -F`) when regex isn't needed. This bypasses the regex engine entirely, providing an extra performance boost on massive files. Finally, remember that ripgrep's output is intended to be human-readable by default (with colors and line numbers), but it can also output JSON (`--json`), allowing you to build your own custom diagnostic tools on top of its search results. Treat ripgrep as your primary probe for interacting with large-scale digital information.

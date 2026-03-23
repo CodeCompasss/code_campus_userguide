@@ -53,11 +53,3 @@ Students will use these libraries and tools as the foundation for their developm
 *   **Database Connectivity:** Ensuring `libmysqlclient-dev` or `libpq-dev` is installed so their application code can communicate with MySQL or PostgreSQL databases.
 *   **Asset Processing:** Leveraging `imagemagick` or `libvips` within their web or mobile projects to automatically resize and optimize images.
 *   **Binary Management:** Using `pipx` to install and run terminal-based applications in isolated environments, preventing dependency conflicts across the system.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of system engineers understand the **distinction between a Library and a Header**. A professional knows that while a program needs a shared library (`.so`) to *run*, it needs the development header (`.h`) to *compile*. This is why installing the "dev" version of a package is essential for development but not for production deployment.
-
-Another high-level skill is mastering **`pkg-config`**. Instead of hardcoding library paths into their Makefiles or build scripts, senior engineers use `pkg-config --cflags --libs <library>` to dynamically retrieve the correct compiler and linker flags for their specific system. This ensures that their code is portable across different Linux distributions.
-
-The "Top 1%" insight is the use of **Static vs Dynamic Linking**. An expert knows when it is appropriate to "statically" link a library into their binary (making the program heavier but perfectly portable) versus "dynamically" linking it (keeping the binary small but reliant on system-provided libraries). Finally, remember that your build environment is part of your project's "Technical Debt." Keeping your build dependencies organized and documented is key to ensuring that your project can still be compiled and deployed years into the future.

@@ -44,11 +44,3 @@ Students will use Flex and Bison to build their own languages and format parsers
 *   **Abstract Syntax Tree Construction:** Writing C actions inside the Bison rules to build a data structure that represents the logic of the parsed code.
 *   **Compiler Infrastructure:** Building a small compiler or interpreter for a custom language as part of their Computer Science coursework.
 *   **Log Processing:** Using Flex to rapidly strip and tokenize massive log files that are too complex for simple `awk` or `sed` scripts.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of systems engineers treat Flex and Bison as **specialized domain-specific languages (DSLs)**. A professional habit is using **Reentrant Parsers**. By default, Flex and Bison often use global variables, making them difficult to use in multi-threaded programs. A senior engineer knows how to use the `%option reentrant` in Flex and `%define api.pure full` in Bison to generate thread-safe code that can be integrated into modern, high-concurrency systems.
-
-Another high-level skill is **incorporating detailed error reporting**. Generic Bison parsers often output a simple "syntax error." A professional uses advanced features like `yyerror`, location tracking (`%locations`), and error recovery tokens to provide the user with the exact line and column number of the failure, along with a helpful diagnostic message.
-
-The "Top 1%" insight is understanding the **trade-offs of the "LALR" (Look-Ahead Left-to-Right) algorithm**. Senior engineers know that while Bison is powerful, it has specific constraints on what grammars it can handle. They know how to resolve "Shift/Reduce" conflicts by restructuring their grammar rules rather than relying on default precedence. Finally, remember that while many modern languages have their own parsing libraries, Flex and Bison remain the "gold standard" for performance and are the foundation upon which many of those modern tools were built. Mastering them gives you a fundamental understanding of how machines interpret human intent.

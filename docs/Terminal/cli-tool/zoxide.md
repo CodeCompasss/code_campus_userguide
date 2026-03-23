@@ -47,13 +47,3 @@ Students will use zoxide to navigate their development environment with minimal 
 *   **Deep Folder Access:** Jumping directly from their home folder to a deeply nested project sub-folder without needing to navigate intermediate levels.
 *   **Workflow Integration:** Overwriting the default `cd` command with `zoxide` (often by adding `alias cd=z` to their shell config) to gain the benefits of tracking without changing their muscle memory.
 *   **Path Discovery:** Using `zoxide query -l` to see a ranked list of their most visited directories, helping them visualize their own workflow patterns.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive engineers treat zoxide as a **foundational utility for their automation scripts**. A senior developer knows that hard-coding absolute paths in local helper scripts makes the scripts fragile. By using `zoxide query`, they can write scripts that find project directories based on a simple keyword, making their custom tooling move as fast as they do.
-
-Another professional practice is the **multi-query jump**. zoxide allows you to provide multiple keywords to narrow down a search. For example, `z work infra` might jump to `~/src/work/infrastructure`, distinguishing it from `~/src/personal/infrastructure`. This targeted navigation is faster than any graphical file explorer.
-
-The "Top 1%" insight is the integration with **terminal multiplexers** like Tmux or Zellij. Senior engineers often use zoxide in combination with jump-tools to automatically open new terminal panes or tabs directly in a project's root directory based on a quick fuzzy search. Finally, understand that zoxide's strength is its **database of habits**. When you move to a new machine, a professional developer often migrates their `.zoxide.db` file to maintain their navigation "muscle memory"—ensuring they remain productive from the moment they log in.
-
-

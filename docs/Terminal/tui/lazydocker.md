@@ -45,11 +45,3 @@ Students will use Lazydocker to simplify their interaction with containerized de
 *   **Resource Auditing:** Identifying which container is consuming excessive CPU or memory through the integrated "Stats" view.
 *   **Clean-up Operations:** Safely removing dangling images and stopped containers to reclaim disk space with a single button press.
 *   **Compose Management:** Visualizing and controlling "groups" of containers defined in a `docker-compose.yml` file, making it easier to manage full-stack projects.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of DevOps-oriented developers use Lazydocker to **audit the efficiency of their container configurations**. A professional habit is using Lazydocker to inspect "Images" and "Volumes" for bloat. By viewing the layer structure of an image directly in the TUI, an engineer can identify which step in their Dockerfile is adding unnecessary weight, allowing them to optimize for faster deployments.
-
-Another high-level skill is leveraging **custom configuration**. Lazydocker allows users to define their own shell commands and project-specific actions within a `config.yml` file. A senior engineer might add a custom button to run database migrations or trigger a specific test suite inside a running container, effectively turning Lazydocker into a customized management cockpit for their specific project.
-
-The "Top 1%" insight is the use of Lazydocker for **ephemeral environment peering**. Instead of instrumenting a container with heavy monitoring tools, an engineer can use Lazydocker to "peer" into its state during development. This non-invasive observation is key to understanding the interplay between services in a distributed system. Finally, remember that while Lazydocker is excellent for local development, it is not a replacement for enterprise orchestration tools like Kubernetes in production. Use it to master the fundamentals and speed up your local lead-time, ensuring that by the time you deploy, you have a deep, visual understanding of how your containers behave under load.

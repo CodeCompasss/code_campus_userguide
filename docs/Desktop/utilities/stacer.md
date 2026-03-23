@@ -48,12 +48,3 @@ Students will use Stacer to maintain their development environment's performance
 *   **Startup Management:** Disabling unnecessary applications from launching at boot to improve system startup speed and reduce idle RAM usage.
 *   **Service Control:** Interactively starting or stopping services (like a database engine or a web server) only when they are needed for specific development tasks.
 *   **Safe Uninstallation:** Searching for and removing software packages and their associated configuration files.
-
-### Professional Insight (Top 1% Knowledge)
-
-Experienced engineers use tools like Stacer for **rapid diagnostics**, but they understand its limitations. While the GUI is excellent for a quick glance, a professional knows that the information Stacer displays is gathered from underlying system files (like those in `/proc` or using `systemctl`).
-
-A professional habit is to use Stacer to identify a problem, but use the terminal to solve it once a permanent configuration change is needed. For example, if Stacer shows a specific service is consuming 100% CPU, an engineer might stop it in Stacer to regain control, but then move to the logs (`journalctl`) to investigate the root cause. 
-
-Additionally, be cautious with the "System Cleaner." A senior engineer knows that some caches (like the Apt cache) are there for a reason—to speed up subsequent package installations. They clean only what they understand, avoiding "optimization for the sake of optimization." Using Stacer as a diagnostic tool rather than a magic "make fast" button is what separates an informed engineer from a casual user.
-

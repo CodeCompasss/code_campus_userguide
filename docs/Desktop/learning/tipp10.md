@@ -46,9 +46,3 @@ Students will use Tipp10 to systematically build and maintain their typing speed
 *   **Custom Lesson Importing:** Pasting code snippets or technical documentation into Tipp10 to practice the specific symbols (brackets, braces, semicolons) that are common in programming but rare in standard prose.
 *   **Progress Tracking:** Analyzing accuracy and WPM trends to ensure they are making consistent improvements before moving to more advanced coding tasks.
 *   **Ergonomic Discipline:** Using the visual keyboard on-screen to ensure they never look at their physical keyboard, thereby building true muscle memory.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive engineers don't just type fast; they type **accurately**. In software development, a single character error (like a `:` vs a `;`) can lead to a bug that takes hours to find. A senior engineer knows that speed is useless if it necessitates constant backspacing. Use Tipp10 to focus on a 98% accuracy rate first; the speed will naturally follow as your muscle memory hardens.
-
-Another professional secret is the importance of **special characters**. Most typing tutors focus on the alphabet, but developers live in the symbols. A professional tip is to curate custom lessons containing heavy usage of `{}`, `[]`, `()`, `=>`, `&&`, and `||`. Mastering these symbols allows you to write complex logic smoothly without your hands ever leaving the home row. Finally, understand that typing is a perishable skill. Even senior engineers occasionally return to a tutor like Tipp10 when they switch to a different keyboard layout (like Dvorak or Colemak) or a specialized ergonomic keyboard, demonstrating that mastery requires continuous investment.

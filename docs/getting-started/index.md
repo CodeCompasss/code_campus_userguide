@@ -44,17 +44,5 @@ The operating system is optimized for **learning, real-world projects, and acade
    * Customizations in GNOME and terminal layouts focus on **ease of navigation, visibility, and workflow efficiency**.
    * Students can concentrate on programming and learning concepts rather than configuration issues.
 
----
 
-### Why CodeCampus OS Matters
-
-For beginners and students, setting up a development environment is often the **biggest initial hurdle**. Different Linux distributions, package versions, or missing dependencies can waste hours of learning time.
-
-CodeCampus OS removes this barrier by providing a **ready-to-use, consistent, and guided environment**, letting students focus on:
-
-* Learning programming languages
-* Experimenting with real-world development tools
-* Building projects and understanding workflows used in professional environments
-
-By combining **education-focused design with real-world tools**, CodeCampus OS serves as both a **learning platform and a lightweight development OS**.
 

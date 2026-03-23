@@ -109,5 +109,3 @@ Key points for beginners:
 * Transition to command-line or lighter editors later is easier once you understand how Python executes
 
 Spyder teaches students **the mindset of deliberate debugging and exploration**, which is far more valuable than memorizing syntax or blindly copying examples.
-
----

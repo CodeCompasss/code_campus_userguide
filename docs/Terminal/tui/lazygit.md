@@ -48,11 +48,3 @@ Students will use Lazygit as their main interface for version control:
 *   **Branch Management:** Creating, switching, and merging branches with interactive prompts, reducing the risk of accidental data loss.
 *   **Conflict Resolution:** Identifying and resolving merge conflicts using the visual comparison tool built directly into the interface.
 *   **Local History Exploration:** Scrolling through the commit log to understand when and why specific changes were made to the codebase.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive engineers use Lazygit to **maintain an immaculate commit history**. A professional habit is the extensive use of **Interactive Rebasing**. While the Git CLI's rebase command is cumbersome, Lazygit allows a developer to reorder, squash, or rename commits with just a few keystrokes (`e` for edit, `s` for squash) before pushing to a shared repository. This ensures that the public history of a project is clean, logical, and easy for other team members to follow.
-
-Another high-level skill is leveraging **custom keybindings and user-defined commands**. Lazygit allows users to extend the TUI with their own shell scripts. A senior engineer might add a shortcut to trigger a specific CI/CD build, run a linter on changed files, or automatically format a commit message following a company-wide template.
-
-The "Top 1%" insight is the use of Lazygit for **surgical code surgery**. By using the "Patch" feature (often bound to `p`), an expert can extract specific changes they've made to their local files and apply them to a different branch without needing to commit the entire file. This level of granular control—managed visually but executed with the speed of a TUI—is what defines a high-velocity developer. Finally, remember that Lazygit is a tool for *your* workflow; its goal is to make version control invisible so that your creativity can remain focused on the code itself.

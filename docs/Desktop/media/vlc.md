@@ -50,10 +50,3 @@ Students will use VLC for more than just entertainment; it will serve as a techn
 *   **Frame-by-Frame Analysis:** Using the 'E' key to step through a video frame-by-frame, which is useful for debugging animations or analyzing visual timing.
 *   **Subtitle Synchronization:** Learning to manage and sync subtitle tracks, a common task in localization and accessible software design.
 *   **Network Protocol Testing:** Opening network streams to test the availability and performance of remote media servers.
-
-### Professional Insight (Top 1% Knowledge)
-
-Experienced engineers treat VLC as a **headless media processor**. One of the most powerful and underutilized features of VLC is its ability to be controlled entirely via the command line or through an HTTP/Telnet interface. A professional use case involves running VLC in "dummy interface" mode (`cvlc`) to automate media tasks or provide background audio/video services on a server.
-
-Another high-level skill is using VLC's **Stream Output (sout)** functionality. You can command VLC to transcode a file and stream it simultaneously to multiple destinations across a network. This allows an engineer to simulate a live broadcasting environment for testing real-time video processing applications. Understanding that VLC is a graphical wrapper around the powerful `libVLC` engine allows you to eventually integrate its capabilities directly into your own software, moving from a user of the tool to a developer who leverages its architecture.
-

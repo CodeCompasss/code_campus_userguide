@@ -34,13 +34,3 @@ Students will use interview preparation resources to systematically sharpen thei
 *   **Architectural Study:** Reviewing the System Design Primer to understand how large-scale applications (like Uber or WhatsApp) are structured for reliability and scale.
 *   **Template Mastery:** Learning and implementing "standard library" versions of algorithms (like BFS/DFS or Binary Search) until they are part of muscle memory.
 *   **Behavioral Prep:** Using the Tech Interview Handbook to structure their project experiences using the STAR method (Situation, Task, Action, Result).
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of engineers view interview preparation not as a "hoop to jump through," but as a **re-hardening of their technical foundation**. A senior engineer knows that while they may not use a complex Dynamic Programming solution every day, the discipline required to solve one translates to better performance analysis and optimization in their production code.
-
-A professional habit is to focus on **patterns, not problems**. Instead of memorizing 500 individual LeetCode solutions, an expert masters the 15-20 underlying patterns. When they see a new problem, they don't look for a match; they look for the pattern.
-
-Another high-level tip is to **narrate your trade-offs**. During a mock interview or a real one, the "Top 1%" developer doesn't just provide a working solution; they proactively discuss why they chose a Hash Map over a Sorted Array, or what the memory implications of their recursion are. Understanding the why is what separates a "coder" from an "engineer." Finally, treat your interview preparation as a continuous baseline. Keeping your DSA skills sharp makes you a more versatile problem solver, regardless of whether you are actively job hunting.
-
-

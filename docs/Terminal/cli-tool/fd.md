@@ -48,12 +48,3 @@ Students will use fd to manage their project files and automate repetitive tasks
 *   **Targeted Directory Navigation:** Locating specific subdirectories, such as finding all "tests" folders in a large codebase.
 *   **Bulk Command Execution:** Using the `-x` or `-X` flags to perform an action on every found file, such as formatting all `.js` files or deleting all `.log` artifacts.
 *   **Regex-Powered Search:** Finding files that match a complex naming pattern (e.g., `fd "v[0-9]+"` to find versioned backups).
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive engineers treat fd as the **primary feeding mechanism for their terminal pipelines**. A professional habit is using **`fd` in conjunction with `fzf`**. By setting `export FZF_DEFAULT_COMMAND='fd --type f'`, an engineer ensures that their interactive file picker is not only extremely fast but also respects their `.gitignore` rules automatically.
-
-Another high-level practice is using the **`--exec-batch` (capital `-X`)** flag. Unlike the small `-x` which runs a command for *each* file (slow for many files), `-X` passes all found files as arguments to a single command. This is significantly faster for operations like `ls`, `grep`, or code formatters. Senior engineers also know how to use the **`--changed-within`** flag to find files that were modified in the last hour, allowing them to rapidly identify which part of a complex system was affected by a recent operation.
-
-The "Top 1%" insight is using fd for **dynamic project cleanup**. By defining a custom "ignore" file (e.g., `~/.fdignore`), an engineer can ensure that their global searches are never cluttered by irrelevant system data or large datasets, even in projects without a `.gitignore`. Finally, remember that fd is built for *interaction*. While `find` is still preferred for critical, platform-agnostic system scripts, fd is the vastly superior choice for your daily, high-speed engineering workflow.
-

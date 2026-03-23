@@ -103,14 +103,3 @@ The GNOME Shell Extension Manager provides several important features:
    * Students can try extensions one by one, enabling/disabling them, learning how GNOME behaves with each change.
 
 ---
-
-### Professional Insight
-
-Experienced Linux users often **combine multiple extensions to optimize workflow**. However:
-
-* **Too many extensions can slow down the desktop**, so start with essential ones.
-* Always **check compatibility** after GNOME upgrades to avoid errors.
-* Use the Extension Manager to **organize and troubleshoot extensions**—manually editing files should be avoided unless necessary.
-
-For beginners, the Extension Manager is the **safest and most convenient way to customize the desktop**, learn about GNOME shell behavior, and improve productivity.
-

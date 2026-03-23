@@ -49,11 +49,3 @@ Students will use GitHub CLI to streamline their collaborative development:
 *   **CI/CD Visibility:** Checking the outcome of automated tests and build actions (`gh run watch`) without waiting for browser notifications.
 *   **Issue Tracking:** Creating and reviewing bug reports or task lists (`gh issue create`, `gh issue list`) as they identify them in their code.
 *   **Secure Authentication:** Managing OAuth tokens and SSH keys (`gh auth login`) through a guided, secure terminal interface that eliminates the danger of manual token handling.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of productive engineers use GitHub CLI to **automate the mundane**. A professional habit is to use aliases and scripts to perform multi-step operations. For example, a senior engineer might have a script that creates a branch, pushes code, opens a pull request, and assigns a reviewer—all with a single custom command like `gh pr-ready`.
-
-Another high-level skill is using **GitHub CLI Extensions**. Since `gh` is extensible, professional developers often install community-built plugins for managing GitHub Projects, analyzing repository statistics, or integrating with specialized cloud services. This allows them to customize their CLI to fit their specific team's workflow perfectly.
-
-Finally, a senior developer knows how to use the **`--json` and `--jq` flags** to filter and process GitHub data. Instead of just reading text, they can extract specific information—like the names of all open PRs with a specific label—and pipe that data into other terminal tools. This ability to treat GitHub as a queryable data source is what enables the high-level automation and reporting that defines enterprise-grade engineering. Adopting `gh` isn't just about speed; it's about gaining programmatic control over your collaborative ecosystem.

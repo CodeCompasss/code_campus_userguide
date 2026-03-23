@@ -47,11 +47,3 @@ Students will use bat as their primary tool for inspecting files without opening
 *   **Log and Data Reading:** Viewing complex files like `package.json`, `docker-compose.yml`, or server logs with clear structure and visibility.
 *   **Piped Information Preview:** Using `bat` as a filter in a pipeline to add highlighting to the output of other commands (e.g., `curl https://api.github.com | bat`).
 *   **Partial File Viewing:** Using the `--line-range` flag to inspect a specific block of code (e.g., `bat -r 50:100 main.c`) instead of scrolling through a large file.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of terminal users treat bat as a **universal highlighter for their entire CLI**. A professional habit is using bat as the **preview engine for fzf**. By configuring fzf to use `bat --color=always` for its preview pane, an engineer can fuzzy-search for files and see their syntax-highlighted contents in real-time before selecting them.
-
-Another high-level practice is using **custom themes and syntaxes**. Senior engineers often configure their `BAT_THEME` environment variable to match their editor's color scheme, ensuring a consistent visual experience across their environment. They also know how to use the **`-pp` (plain) mode**, which strips away the line numbers and headers, making the output suitable for copying and pasting into technical documentation while keeping the syntax colors.
-
-The "Top 1%" insight is the use of bat for **interactive diffing**. By using a tool like `batdiff`, an engineer can see a side-by-side, syntax-highlighted comparison of two files, which is far more readable than the standard, monochrome `diff` output. Finally, remember that bat is a "social" tool—it understands that code is written for humans. Using it makes you a faster and more accurate reader of code, which is arguably a more frequent task than writing it.

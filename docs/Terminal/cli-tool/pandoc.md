@@ -45,10 +45,3 @@ Students will use Pandoc to transform and professionalize their technical writin
 *   **Code Presentation:** Using Pandoc to generate PDF or HTML slide decks (using formats like Reveal.js or Beamer) directly from their technical notes.
 *   **Academic Formatting:** Using BibTeX or CSL files with Pandoc to automatically manage citations and bibliographies in their technical reports.
 
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of technical writers and engineers use Pandoc as a **programmable publishing pipeline**. A professional habit is using **Pandoc Filters** (often written in Lua or Python). Filters allow you to programmatically modify the document's structure during conversion—for example, automatically numbering figures, calculating and inserting mathematical results, or transforming specific tags into custom UI components.
-
-Another high-level skill is the creation of **Custom Templates**. Senior engineers maintain their own LaTeX or HTML templates that define the exact typography, headers, and metadata required for their company or personal brand. This ensures that every document they produce has a consistent, professional, and unique "look and feel" without any manual design work.
-
-The "Top 1%" insight is the integration of Pandoc into **CI/CD pipelines**. Every time code is pushed, a server can automatically run Pandoc to regenerate the project's documentation site, user manual, and PDF specification. This ensures that the documentation is never "out of sync" with the code. Mastering Pandoc means moving beyond simple file conversion to understanding the "Document Object Model" (AST) that underlies all structured text. Finally, always check the **Pandoc User's Guide** for the specific flags related to your output format—fine-tuning the conversion process is what separates a generic document from a polished, professional publication.

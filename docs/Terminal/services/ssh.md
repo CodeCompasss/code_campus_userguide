@@ -44,12 +44,3 @@ Students will use SSH and rsync to interact with their remote technical resource
 *   **SSH Key Authentication:** Replacing vulnerable passwords with cryptographic SSH keys for more secure and convenient "one-click" logins.
 *   **Port Forwarding:** Accessing a database or web server running on a remote network by securely tunneling it to their local machine (`ssh -L`).
 *   **Automated Backups:** Writing simple shell scripts that use rsync to periodically back up their important project directories to an external drive or a different server.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of systems engineers treat SSH as an **identity and access management framework**. A professional habit is the rigorous use of the **`~/.ssh/config` file**. Instead of typing long, complex commands every time, a senior engineer defines host aliases that specify the IP, username, identity file, and even proxy settings for every machine they manage. This allows them to connect to a complex multi-hop server with a simple command like `ssh production`.
-
-Another high-level skill is **Agent Forwarding**. When working across multiple servers, a professional uses `ssh-agent` to manage their keys securely, allowing them to jump from one machine to another without ever leaving their private keys on a remote (and potentially compromised) server.
-
-The "Top 1%" insight is the use of **rsync's `--delete` flag and "atomic" deployments**. A senior developer knows that a dirty deployment—where old, unused files are left on the server—is a recipe for subtle bugs. They use rsync to ensure the remote directory is an *exact* mirror of the local source. Furthermore, they leverage the **`ssh -t`** flag to execute remote commands that require an interactive terminal, such as attaching to a running `tmux` session. Finally, remember that rsync is more than a copy command; it's a synchronization engine. Mastering its complex inclusion and exclusion rules allows you to build sophisticated, production-ready deployment pipelines.
-

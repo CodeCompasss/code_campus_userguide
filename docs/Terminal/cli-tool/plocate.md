@@ -44,11 +44,3 @@ Students will use plocate for system-wide file discovery:
 *   **Finding Executables:** Discovering the full path of a command or script that is in their PATH but whose location is unknown.
 *   **Extension and Pattern Discovery:** Listing all files of a certain type on the entire system, such as all `.log` files or all `.service` files.
 *   **Fuzzy (Partial) Matching:** Finding files when only a fragment of the name is known, as plocate naturally handles substring matches.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of system administrators and engineers understand the **temporal nature of the index**. A professional habit is to manually trigger an index update using `sudo updatedb` immediately after installing a large software package or moving many files. Without this, plocate will not "see" the new files until the next scheduled system update (usually triggered by a cron job or systemd timer).
-
-Another high-level practice is using the **`--count`** flag. Senior engineers use this to quickly gauge the scale of a search—for example, to see how many instances of a specific configuration pattern exist across the entire system—before they begin processing the files. They also use the **`--regexp`** flag to leverage the full power of regular expressions for complex system-wide audits.
-
-The "Top 1%" insight is the use of plocate as a **diagnostic "sanity check."** If an engineer is confused by which version of a library a program is loading, they use plocate to find *all* instances of that library on the system. This often reveals conflicting versions residing in `/usr/local/lib` versus `/usr/lib`, solving "invisible" system bugs in seconds. Finally, understand that because plocate is database-backed, it is not suitable for finding files created in the last few minutes of a dynamic development session—for that, use `find` or `fd`. Knowing when to use the "instant index" (plocate) versus the "live scan" (find) is the mark of a sophisticated Linux user.

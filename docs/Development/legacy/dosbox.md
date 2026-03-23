@@ -127,4 +127,3 @@ Key beginner tips:
 * Remember that DOSBox emulates old hardware — some programs may require tweaking CPU cycles or memory settings in the configuration file (`dosbox.conf`).
 
 Learning DOSBox builds habits that carry into **Linux command-line usage, virtualization, and understanding legacy systems** — skills often overlooked in beginner courses.
-

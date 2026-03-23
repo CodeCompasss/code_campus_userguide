@@ -23,11 +23,3 @@ This section covers the essential TUIs included in CodeCampus OS:
 *   **[btop](btop.md):** A high-performance system monitor for visualizing CPU, memory, and network activity with beautiful graphs.
 *   **[Fastfetch](fastfetch.md):** A high-speed system identification tool to verify your hardware and software environment.
 *   **[LazyVim](lazyvim.md):** A pre-configured Neovim framework that provides an IDE-like experience within the terminal.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of terminal users treat TUIs as **specialized cockpits for specific workflows**. A professional habit is the extensive use of **Keybinding Discovery**. Most modern TUIs (like Lazygit) have a "Cheat Sheet" or "Hint Box" (often triggered by `?`). Senior engineers use these to rapidly master new features without ever consulting external documentation.
-
-Another high-level skill is **TUI-CLI Synergy**. A professional doesn't just use the TUI; they know when to drop back to the raw CLI for bulk operations and when to use the TUI for "surgical" edits or visual inspection. They also look for TUIs that are written in high-performance languages like Rust or Go, ensuring that their tools are as fast as their own thought process.
-
-The "Top 1%" insight is the use of **TUIs for Remote Diagnostics**. When a production server is behaving unexpectedly, a senior engineer uses `btop` or a similar TUI over SSH to get a "live" feel for the system's pulse. This real-time, interactive observation is often more revealing than looking at static logs or delayed web dashboards. Finally, remember that your TUIs are highly configurable. Take the time to adjust the themes and layouts to match your aesthetic preferences—a beautiful workspace is a productive one.

@@ -44,11 +44,3 @@ Students will use Git Aliases to streamline their common version control cycles:
 *   **Rapid Committing:** Using `git cm "message"` to stage all changes and commit in a single step (if the alias is configured to do so).
 *   **Switching Contexts:** Using `git co branch-name` to checkout branches with minimal typing.
 *   **Cleaning Up:** Using an alias like `git clean-done` to automatically delete local branches that have already been merged into the main development line.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of Git users treat their `.gitconfig` as a **version-controlled asset**. A professional habit is using **Sudo-Shell Aliases** (aliases that start with `!`). These allow you to execute arbitrary shell commands within a Git alias. For example, a senior engineer might create an alias that runs a linter, executes a test suite, and only *then* performs a Git commit if everything passes. This transforms a simple shortcut into a sophisticated pre-commit validation tool.
-
-Another high-level skill is the use of **Positional Parameters** within shell-based aliases. This allows you to create aliases that accept arguments, such as `git find-commit "search-string"` which performs a complex `grep` across the entire history of the repository for that specific string.
-
-The "Top 1%" insight is the use of **Atomic and Descriptive Aliases**. While short aliases like `st` are good for speed, professionals also create highly descriptive aliases for complex operations, such as `git undo-last-commit` or `git sync-with-upstream`. These act as documented procedures that are always available, reducing the risk of making an error during high-pressure situations like a merge conflict or a production rollback. Finally, remember that your aliases should be shared; many developers keep their `.gitconfig` in a public "dotfiles" repository, allowing them to carry their optimized workflow to any machine they touch.

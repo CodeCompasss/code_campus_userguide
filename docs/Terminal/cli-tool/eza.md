@@ -44,12 +44,3 @@ Students will use eza as their primary tool for directory exploration:
 *   **Structure Visualization:** Using `eza --tree --level=2` to understand the hierarchy of a new project without getting lost in deeply nested subdirectories.
 *   **Sorting and Discovery:** Easily sorting files by modification time (`--sort=modified`) to find the file they most recently edited.
 *   **Hidden File Management:** Using `eza -la` to see configuration files (like `.bashrc` or `.env`) alongside standard project files.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of developers treat eza as a **replacement for default muscle memory**. A common professional habit is to alias `ls` to `eza` in their shell configuration (e.g., `alias ls='eza --icons --git'`). This ensures that every directory they enter immediately provides the maximum amount of information without extra typing.
-
-Another advanced trick is using eza's **extended attribute support**. Senior engineers use flags like `--extattr` or `--mounts` to see system-level metadata that standard `ls` often hides. They also leverage the **`--oneline`** and **`--group-directories-first`** flags to create customized views for specific tasks, such as creating a clean list of directories for a documentation snippet.
-
-The "Top 1%" insight is the use of eza for **visual auditing**. By combining `--long` with `--header`, an engineer creates a clear table of file metadata that makes identifying permission errors or ownership mismatches trivial. Finally, remember that while eza is excellent for human use, it is less suitable for automated scripts that expect the standard, unformatted output of `ls`. A professional knows to keep the standard `/bin/ls` available for pipelines while using eza as their primary interactive interface.
-

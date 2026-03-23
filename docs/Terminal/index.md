@@ -23,11 +23,3 @@ This documentation is divided into specialized categories to help you master eve
 *   **[Terminal UIs (TUIs)](tui/index.md):** Exploring immersive, keyboard-centric environments for Git (`lazygit`), Docker (`lazydocker`), and system monitoring (`btop`).
 *   **[Productivity & Editors](../Development/editors/neovim.md):** Diving into [Neovim](../Development/editors/neovim.md) and [Zellij](shell/zellgi.md) for a professional, modal-editing development workspace.
 *   **[Services](services/ssh.md):** Understanding the fundamental network protocols like SSH and database services like MySQL.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of engineers don't just "use" the terminal; they **optimize it for ergonomics and signal-to-noise ratio**. A professional habit is the rigorous use of **Typography and Color Schemes**. By choosing a high-quality monospaced font (like "JetBrains Mono" or "Nerd Fonts") and a curated color palette (like Catppuccin or Nord), an engineer reduces eye strain during long development sessions. In Alacritty, this is managed through a simple `alacritty.toml` or `yml` configuration file that can be synced across machines.
-
-Another high-level skill is understanding the **Terminal-Shell-TUI relationship**. A senior developer knows how to troubleshoot issues by identifying whether a problem is in the terminal emulator's rendering, the shell's logic, or the application's implementation.
-
-The "Top 1%" insight is the use of the **terminal as a "Headless" interface**. An expert knows that they can use the same terminal skills to manage a local laptop, a remote cloud instance, or a containerized environment. Finally, remember that your terminal is your most personal tool. Most professionals spend years refining their configuration, treating it as a digital extension of their own hands.

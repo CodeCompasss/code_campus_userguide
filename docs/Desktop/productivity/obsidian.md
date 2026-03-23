@@ -42,10 +42,3 @@ Students will use Obsidian to build and navigate their personal technical librar
 *   **Problem-Solution Database:** Documenting specific error messages and the steps taken to resolve them, creating a searchable "Bug Journal."
 *   **Project Documentation:** Outlining the architecture, dependencies, and future ideas for personal or academic projects.
 *   **Cheat Sheets:** Building highly personalized references for terminal commands, regex patterns, or Git workflows that are faster to access than a web search.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of engineers use Obsidian's extensibility to bridge the gap between their notes and their code. A professional workflow often involves using the **Git plugin** to version control their knowledge base, pushing it to a private repository to ensure history and backup. This treats knowledge-as-code, a fundamental shift in perspective.
-
-Another high-level practice is the use of **Atomic Notes**. Instead of writing long, monolithic documents, senior engineers write small, focused notes that represent a single concept or solution. These "atoms" can then be "composed" through linking into larger frameworks of understanding. This mirrors modular software design principles: build small, reliable components and combine them into complex systems. By applying software engineering principles to your own learning process, you develop the architectural thinking necessary for high-level technical leadership.
-

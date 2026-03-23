@@ -34,13 +34,3 @@ Students will use gamified platforms to supplement their formal education and pr
 *   **Database Practice:** Solving mysteries in SQL Noir or Knight Lab Mystery to build complex queries and understand relational data logic.
 *   **Competitive Programming:** Participating in platforms like Bitburner or BattleSnake to test their algorithm design against other students or AI.
 *   **Iterative Debugging:** Refitting a solution multiple times to achieve a "perfect score" or "most efficient code" in a game level.
-
-### Professional Insight (Top 1% Knowledge)
-
-Experienced engineers use gamification not just for initial learning, but for **cognitive flexibility and prototyping**. Many "coding games" are actually sophisticated simulations of real-world problems. For example, the challenges in "Elevator Saga" or "Screeps" mirror the complexities of asynchronous programming, resource management, and pathfinding that senior engineers solve in production systems.
-
-A professional habit is to use these tools to **"warm up" or explore new paradigms**. A senior backend engineer might play a CSS game to quickly regain spatial intuition before helping a frontend team, or a developer might use an AI-based game to experiment with heuristic logic. 
-
-The key insight for the "Top 1%" is that **learning should be continuous and playful**. By treating complex technical challenges as games, you develop a problem-solving mindset that is resilient to frustration. A senior engineer doesn't see a difficult bug as a disaster, but as a "hard level" that requires a more creative approach. Adopting this gamified attitude toward your entire career is what allows for long-term growth without burnout.
-
-

@@ -45,11 +45,3 @@ Students will use Zellij to build a high-efficiency command-line cockpit:
 *   **Session Persistence:** Leaving their development environment "alive" even if the terminal window is accidentally closed or the computer is put to sleep.
 *   **Floating Panes:** Using floating windows for quick, non-disruptive tasks like looking up a manual page or running a one-off Git command without disturbing their main layout.
 *   **Project Layouts:** Creating a `.kdl` file to automatically restore their preferred pane and tab structure whenever they start working on a specific course project.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of terminal power users treat Zellij as a **programmable dashboard**. A professional habit is leveraging **Zellij Plugins**. Because Zellij uses WebAssembly (Wasm), professional engineers can write their own UI components—such as a custom project health monitor or a specialized file explorer—that run natively inside the terminal panes.
-
-Another high-level skill is **Cross-Machine Session Sharing**. Senior engineers often use the session management features to pair-program or troubleshoot a remote server, where multiple people can attach to the same Zellij session and see the same panes and outputs in real-time.
-
-The "Top 1%" insight is the use of **Zellij as a replacement for a Tiling Window Manager**. For developers who don't want to switch their entire OS to a tiling manager like i3 or Hyprland, Zellij provides the same high-efficiency spatial management entirely within the terminal. Combined with a "Quake-style" drop-down terminal, it creates a seamless, keyboard-driven environment that is portable across any Linux distribution. Finally, remember that Zellij is designed to stay out of your way. Once you master the "locked" mode (`Ctrl+g`), which passes all keystrokes directly to the underlying application (like Neovim), you get the benefits of multiplexing with zero input interference.

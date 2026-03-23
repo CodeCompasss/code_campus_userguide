@@ -40,13 +40,3 @@ Students will use Postman to master the lifecycle of API-driven development:
 *   **Authentication Testing:** Experimenting with various security schemes—such as API Keys, Basic Auth, or OAuth 2.0—to understand how secure communication is established.
 *   **Collection Management:** Organizing related requests into "Collections," creating a structured reference for a project's entire API surface area.
 *   **Environment Variables:** Defining "Global" or "Environment" variables (like `baseUrl`) to easily switch between local development and hosted staging servers.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of engineers don't just use Postman as a manual tester; they use it as an **automated quality assurance tool**. A professional habit is to write "Tests" in JavaScript directly within the Postman interface. These tests automatically verify that a response contains the correct data structure and performance metrics every time a request is sent.
-
-Another high-level practice is using **Pre-request Scripts**. Senior engineers use these to dynamically generate data—like timestamps, cryptographic signatures, or temporary tokens—required for a valid API call. This eliminates the need for manual data entry and ensures that testing remains efficient and repeatable.
-
-Finally, a senior developer leverages **Postman Collections as Documentation**. Instead of writing a separate PDF, they share a curated Postman collection that includes examples of successful and unsuccessful requests. This "living documentation" can be imported by other team members, allowing them to start interacting with the API immediately. Adopting a Postman-first workflow ensures that API design is deliberate, documented, and rigorously tested from the first endpoint.
-
-

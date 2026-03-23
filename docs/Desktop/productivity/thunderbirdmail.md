@@ -50,9 +50,3 @@ Students will use Thunderbird to centralize their professional and academic comm
 *   **Managing Mailing Lists:** Subscribing to and organizing high-volume developer mailing lists using advanced filters and folder structures.
 *   **Technical Intelligence:** Utilizing the integrated RSS reader to monitor project updates and security advisories alongside their email.
 *   **Offline Productivity:** Reviewing and drafting responses to technical threads during flights or in areas with poor connectivity.
-
-### Professional Insight (Top 1% Knowledge)
-
-Experienced engineers treat Thunderbird as a **modular communications hub** rather than a simple mail app. They leverage the "Filter" system to automate the sorting of incoming notifications from CI/CD pipelines, GitHub repositories, and server logs. Instead of manually checking these, a senior engineer sets up rules that move these notifications to specific folders and marks them as read unless they meet certain urgency criteria.
-
-Another high-level skill is the use of **Advanced Search and Saved Search Folders**. By creating virtual folders based on complex criteria (e.g., "All emails with attachments from the 'Backend' team in the last 30 days"), you can navigate massive amounts of data in seconds. Finally, understanding how to manage your local **profile directory** is a key skill; knowing how to backup and migrate your `~/.thunderbird` folder ensures that your entire communication history and cryptographic keys are never lost, even when switching systems.

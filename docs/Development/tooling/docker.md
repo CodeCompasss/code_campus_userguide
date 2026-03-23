@@ -50,11 +50,3 @@ Students will use Docker to simplify their development setup and prepare for pro
 *   **Unified Development Stacks:** Using `docker-compose` to define and launch an entire multi-container application (frontend, backend, and database) with one command.
 *   **Seamless Handover:** Sharing a project with a teammate by providing a Dockerfile, ensuring they can get the app running in seconds without any manual setup.
 *   **Safe Exploration:** Experimenting with new tools or potentially unstable software inside a container that can be instantly deleted if something goes wrong.
-
-### Professional Insight (Top 1% Knowledge)
-
-Experienced engineers treat Docker as a **foundational unit of deployment**. They don't just "use" Docker; they optimize it. A professional habit is the rigorous minimization of image size using **multi-stage builds**. By separating the "build" environment from the "runtime" environment, a senior engineer can reduce a 1GB image to 50MB, significantly improving deployment speed and security.
-
-Another high-level skill is understanding **ephemeral storage and volumes**. A common beginner mistake is losing data because it was stored inside a container that was later deleted. The "Top 1%" engineer understands that containers should be "cattle, not pets"—easily replaceable and stateless. They use persistent volumes to map critical data to the host machine while keeping the application logic portable.
-
-Finally, a senior developer uses Docker to **simulate production constraints** locally. They might use Docker to limit a container's CPU or memory to see how their application behaves under stress. Mastering Docker means moving beyond simple "run" commands to understanding how containerization impacts the entire lifecycle of software—from the first line of code to a globally distributed system.

@@ -1,64 +1,78 @@
+# Welcome to the User Guide
+
+---
+
+## What This Guide Is
+
+This user guide is designed to help **beginners, students, and self-learners** get started with programming, development tools, and Linux-based workflows.
+
+It is **not just a list of commands or software**, but a **learning-focused reference** that explains:
+
+* What each tool or utility does
+* Why it matters in real-world workflows
+* How to use it in practical scenarios
+
+The guide covers a variety of topics, from IDEs and programming languages to terminals, version control, and power management. Each section is written so that even someone with **minimal prior experience** can follow along.
+
+---
+
+## How to Use This Guide
+
+1. **Read by Topic**
+
+   * Each tool or utility has its own section. You can read the guide sequentially or jump to the sections you need.
+
+2. **Follow Installation Instructions**
+
+   * Step-by-step commands are provided for multiple Linux distributions, so you can set up tools quickly and correctly.
+
+3. **Learn Practical Usage**
+
+   * Each section explains common workflows and beginner-friendly examples so you can **start using the tool immediately**.
+
+4. **Experiment Safely**
+
+   * Commands and examples are designed for beginners. You are encouraged to try things in a safe environment, such as a virtual machine or test project.
+
+5. **Use as a Reference**
+
+   * Even after learning the basics, you can return to the guide whenever you need a **refresh or explanation** of a tool or workflow.
+
+---
+
+## For CSE Students (Recommended Starting Point)
+
+If you are a **CSE beginner, first-year, or second-year student**, it is highly recommended that you start with this guide:
+
+👉 [https://shadil-rayyan.github.io/cse-student-starter-guide/](https://shadil-rayyan.github.io/cse-student-starter-guide/)
+
+It provides a **clear roadmap of what to learn, in what order, and why**, which will help you avoid confusion and wasted time.
+
+---
+
+## After Installing CodeCampus OS
+
+If you have just installed **CodeCampus OS**:
+
+* Please read the **`instruction.txt` file on the desktop**
+* It contains important setup steps and guidance to get started properly
+
+This system is **not perfect**, but it is designed to be **better than a default setup for beginners** by giving you direction and structure from the start.
+
+---
+
+## Note About This Guide
+
+This guide is **a work in progress**. Due to time and manpower constraints, not all tools and workflows are fully documented yet. AI assistance has been used to help complete sections, and the content is continuously updated to improve accuracy and usefulness.
+
+Think of this guide as a **living document**: it will grow over time with **new tutorials, practical examples, and insights** to help you make the most of your development environment.
+
+---
 
 ## Why CodeCampus OS Exists
 
-Many Computer Science and IT students face a common problem: **setting up a proper development environment takes a long time**.
+**CodeCampus OS is not just about making setup easy —
+it’s about showing beginners the entire landscape of what’s possible.**
 
-In traditional programs, students often spend **months—or even years—figuring out which tools they need, how to install them, and how to configure them correctly**. For example:
-
-* Installing compilers for **C/C++ or Java**
-* Setting up **Python with packages for data analysis or web development**
-* Configuring IDEs like **VS Code or Neovim** with proper plugins
-* Learning **Git, Docker, or command-line tools** for version control and project management
-
-These are essential skills for real-world software development, but students often **only encounter them late in their degree**, sometimes in their **final year**, when it’s already too late to practice effectively before graduation.
-
----
-
-### The Typical Situation
-
-Imagine a CS student in their **third or fourth year**:
-
-* They have learned programming theory but have **no consistent environment to practice real projects**
-* They spend hours troubleshooting installation errors, dependency issues, or version conflicts
-* They miss out on learning **best practices** for coding workflows, project organization, and debugging because they are stuck on setup problems
-* Some students never fully master tools like **Git, Docker, or IDEs**, because their first exposure is rushed and unstructured
-
-This is the exact situation CodeCampus OS addresses.
-
----
-
-### How CodeCampus OS Solves the Problem
-
-CodeCampus OS **removes the setup barrier entirely**:
-
-1. **All essential tools come pre-installed**
-
-   * Programming languages, compilers, IDEs, Docker, Git, and advanced CLI tools are ready out of the box.
-
-2. **Pre-configured environment for beginners**
-
-   * Text editors, terminals, and productivity setups are already optimized
-   * Students don’t waste time learning configuration before learning to code
-
-3. **Step-by-step guidance**
-
-   * Guided documentation and curated dotfiles help students understand **how to use each tool effectively**
-   * Learning is practical, not just theoretical
-
-4. **Immediate access to real-world workflows**
-
-   * Students can experiment with coding projects, version control, and debugging **from day one**
-   * Provides a consistent platform across lab machines, so learning is uninterrupted
-
----
-
-### Why This Matters
-
-By using CodeCampus OS, students can:
-
-* Focus on **learning programming and software engineering skills** instead of setup headaches
-* Gain experience with tools and workflows **used in professional environments**
-* Avoid the situation where essential development skills are introduced **too late in the degree**
-
-In short, **CodeCampus OS exists to bridge the gap** between academic theory and real-world software development, giving students a **head start** and confidence in their coding journey.
+This is the reason it was built.
 

@@ -45,11 +45,3 @@ Students will use VS Code as their central hub for almost all programming tasks:
 *   **Integrated Terminal:** Running commands, scripts, and compilers directly within the editor without switching windows.
 *   **Version Control:** Using the built-in Git interface to stage changes, write commit messages, and push code to repositories.
 *   **Extensions:** Installing specific tools like the "Live Server" for web development or "Remote - SSH" for working on university servers.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of VS Code users don't just write code in it; they automate their environment. A senior engineer treats their `settings.json` and `keybindings.json` as part of their professional identity. Specifically, you should learn to use the **Command Palette (Ctrl+Shift+P)** for everything. Reaching for the mouse to navigate menus is a sign of a beginner.
-
-Another high-level skill is the use of **Multi-cursor editing (Alt + Click or Ctrl + Alt + Arrow)**. This allows you to perform repetitive edits across dozens of lines simultaneously, a task that would take minutes manually but takes seconds for an expert. Lastly, learn to use the **Integrated Terminal** for building and testing; developers who rely solely on GUI "Run" buttons often struggle when they eventually have to work on headless servers or CI/CD pipelines where no GUI exists.
-
-

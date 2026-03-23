@@ -47,12 +47,3 @@ Students will use btop to monitor and manage their technical workstation:
 *   **Network Auditing:** Observing which applications are currently sending or receiving data over the internet.
 *   **Process Management:** Quickly identifying and "killing" processes that have become unresponsive or are consuming excessive resources.
 *   **Remote Monitoring:** Using btop over an SSH connection to check the status of a remote server or a departmental lab machine.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of systems engineers use btop as a **diagnostic probe**. A professional habit is using btop's **filtering and tree-view** capabilities to trace the lineage of a specific process. Instead of just seeing a list of names, a senior engineer can see how processes relate to each other—for example, identifying which specific background worker owned by a web server is the one consuming all the memory.
-
-Another high-level skill is leveraging btop's **stateless/low-overhead design**. Because btop is highly optimized, it can be run on systems that are already under heavy load without significantly contributing to the problem. Senior engineers use it as their "first response" tool when a system feels sluggish, using its graphical history to look back at the last 60 seconds of performance data to understand what *just* happened.
-
-The "Top 1%" insight is the use of btop to **validate hardware utilization**. An expert uses it to ensure that their multi-core processor is actually being utilized correctly by parallelizing compilers or multi-threaded applications. If only one core is at 100% while others are idle, it's a clear signal that the software isn't optimized for modern hardware. Finally, remember that btop is highly customizable via its configuration file; a professional developer often sets up their own color schemes and data layout to prioritize the metrics most relevant to their specific domain.
-

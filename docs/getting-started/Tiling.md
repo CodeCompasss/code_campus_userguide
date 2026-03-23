@@ -1,7 +1,3 @@
-Here’s a **beginner-friendly explanation** of **window tiling in GNOME and Tactile**, written in **Codekub style**, keeping it clear, concise, and actionable:
-
----
-
 ## Window Management & Tiling in GNOME
 
 Managing multiple apps efficiently is **key for productivity**, especially when coding or working on projects.
@@ -74,8 +70,3 @@ Sometimes manual adjustment is needed:
 * Reduces **time wasted resizing windows**
 * Makes **multi-tasking natural**
 
----
-
-If you want, I can next create a **visual “GNOME + Tactile tiling cheat sheet”** with **keyboard shortcuts and examples** that beginners can print or keep on screen while working.
-
-Do you want me to do that?

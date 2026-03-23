@@ -103,20 +103,20 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-      - Philosophy: getting-started/philosophy.md
       - Index: getting-started/index.md
-      - Hotkeys: getting-started/hotkeys.md
+      - Philosophy: getting-started/philosophy.md
+
       - Clipboard: getting-started/clipboard.md
       - Tiling: getting-started/Tiling.md
 
   - Desktop:
       - Launchers: Desktop/launchers/ulancher.md
       - Learning:
-          - CodeCompass: Desktop/learning/codecompass.md
+          - CodeCompass: Desktop/learning/codecompass/index.md
           - DistroSea: Desktop/learning/distrosea.md
-          - Education: Desktop/learning/education.md
-          - Game: Desktop/learning/game.md
-          - Interview: Desktop/learning/interview.md
+          - Education: Desktop/learning/education/index.md
+          - Game: Desktop/learning/game/index.md
+          - Interview: Desktop/learning/interview/index.md
           - Tipp10: Desktop/learning/tipp10.md
       - Media:
           - Communication: Desktop/media/communication.md
@@ -141,6 +141,7 @@ nav:
           - VSCode: Development/editors/vscode.md
           - Neovim: Development/editors/neovim.md
           - Spyder: Development/editors/spyder.md
+          - Micro: Development/editors/micro.md
       - Tooling:
           - GitHub CLI: Development/tooling/githubcli.md
           - Docker: Development/tooling/docker.md
@@ -155,6 +156,11 @@ nav:
           - Git Alias: Terminal/shell/git-alias.md
           - Zellgi: Terminal/shell/zellgi.md
           - Essential Libraries: Terminal/shell/essential_libraies.md
+          - Apt-file: Terminal/shell/apt-file.md
+          - Aria2: Terminal/shell/aria2.md
+          - Mc: Terminal/shell/mc.md
+          - Rsync: Terminal/shell/rsync.md
+          - Samba: Terminal/shell/samba.md
       - CLI Tools:
           - Bat: Terminal/cli-tool/bat.md
           - Fd: Terminal/cli-tool/fd.md
@@ -166,6 +172,7 @@ nav:
           - Plocate: Terminal/cli-tool/plocate.md
           - TLDR: Terminal/cli-tool/tldr.md
           - Zoxide: Terminal/cli-tool/zoxide.md
+          - Jdupes: Terminal/cli-tool/jdupes.md
       - TUI:
           - Index: Terminal/tui/index.md
           - LazyGit: Terminal/tui/lazygit.md

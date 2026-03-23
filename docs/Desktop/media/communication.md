@@ -44,13 +44,3 @@ Students will use these tools to coordinate their learning and project work:
 *   **Infrastructure Integration:** Connecting Slack/Discord to GitHub or CI/CD pipelines to receive automated notifications when a build succeeds or a pull request is opened.
 *   **Local File Sharing (LocalSend):** Quickly moving a compiled binary or a large database dump from a development laptop to a testing machine or a mobile device.
 *   **Knowledge Sharing:** Using "Huddles" or voice channels for pair programming sessions and real-time debugging.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of developers use communication tools to **reduce their own cognitive load**. A senior engineer doesn't stay "online" and reactive all day. They use "Do Not Disturb" (DND) modes and scheduled notifications to protect their deep-work time. They understand that every "ping" is a context switch that breaks their flow.
-
-A professional habit is the rigorous use of **Threads and Mark-as-Unread**. Instead of cluttering a main channel with a long technical debate, an expert starts a thread to keep the history contained. Furthermore, they use communication tools as a **searchable archive**. When they solve a hard problem, they often post the solution in a public channel specifically so that "future themselves" or a teammate can find it months later using the search function.
-
-Finally, treat tools like LocalSend as a security utility. Using the cloud to move a sensitive `.env` file or an SSH key is a major security risk. A professional uses local, peer-to-peer encrypted tools to move sensitive credentials between their devices, ensuring that their secrets never leave their local network.
-
-

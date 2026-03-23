@@ -51,12 +51,4 @@ Students will use fzf to build interactive bridges between their common terminal
 *   **Process Management:** Finding and killing a runaway process by piping `ps` into `fzf` and selecting the PID.
 *   **Directory Jumping:** Using fzf as a backend for directory jumping tools to visually select from a list of frequently visited paths.
 
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of terminal users treat fzf as a **user interface framework for the shell**. A professional habit is using **fzf previews**. By using the `--preview` flag (often combined with tools like `bat`), you can see the contents of a file or the details of a Git commit in a side-pane *before* you select it. This "search and preview" workflow is faster and more context-rich than any GUI file manager.
-
-Another high-level skill is creating **custom fzf-powered scripts**. Senior engineers write specialized functions for their specific needs, such as a script that fuzzy searches through Jira tickets, AWS instances, or Docker containers and performs an action (like SSH-ing or stopping) on the selection. They also use **multi-select mode** (`-m`) to perform batch operations on multiple chosen items simultaneously.
-
-The "Top 1%" insight is the integration of fzf with **system-wide fuzzy completion**. By setting up the `**` trigger in their shell, an expert can type `vi **/some/path` and trigger an fzf search for files matching that path fragment. Finally, understand that fzf is a "building block." It doesn't do anything on its own; its power comes from how it is piped into and out of other tools. Mastering fzf means mastering the flow of data through the terminal.
-
 

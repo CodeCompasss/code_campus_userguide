@@ -42,11 +42,3 @@ Students will use Fastfetch to quickly identify and verify their technical surro
 *   **Debugging Support:** Using the output of Fastfetch to provide accurate system details when asking for technical support on forums or reporting bugs in open-source projects.
 *   **Configuration Tracking:** Verifying that a kernel update or a driver installation was successfully applied by checking the reported versions.
 *   **Shell Customization:** Including a clean version of Fastfetch at the top of their terminal window to provide a sense of place and personal branding for their development environment.
-
-### Professional Insight (Top 1% Knowledge)
-
-The "Top 1%" of terminal aficionados treat Fastfetch as a **highly-tuned data reporting interface**. A professional habit is using **custom JSON configurations**. Fastfetch allows users to define exactly which system metrics are important to them—perhaps prioritizing the count of installed packages or the specific version of a graphics driver—and formatting them into a clean, minimal layout that eschews the "logo" entirely for a pure data view.
-
-Another high-level skill is using Fastfetch for **remote environment auditing**. Senior engineers might include Fastfetch (or a specific subset of its output) in their automated provisioning scripts to generate a "report card" for a newly created cloud instance, ensuring that the machine matches the technical specification before it is handed over to the development team.
-
-The "Top 1%" insight is the **integration of Fastfetch with terminal startup performance**. While neofetch was culturally significant, its Bash-based implementation was slow enough to be noticed. An expert engineer values the C-based efficiency of Fastfetch because it respects the "time to first prompt." They also leverage its **Unicode and Sixel support** to display high-resolution graphics logos in supported terminals, choosing a visual representation that is as sophisticated as their underlying system. Finally, remember that Fastfetch is more than a "vanity" tool; use its precise reporting to maintain the environmental consistency that is required for professional-grade engineering.
