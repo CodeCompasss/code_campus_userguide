@@ -22,3 +22,8 @@ Icon=codecompass
 Terminal=false
 Type=Application
 Categories=X-CodeCompass;
+
+in home/codecompass detlelte it if such a folder exits 
+
+to fix the font issue and stuff 
+sudo apt install fonts-getbrains-mono 

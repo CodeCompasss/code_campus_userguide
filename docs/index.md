@@ -44,4 +44,4 @@ The guide covers a variety of topics, from IDEs and programming languages to ter
 
 This guide is **a work in progress**. Due to time and manpower constraints, not all tools and workflows are fully documented yet. AI assistance has been used to help complete sections, and the content is continuously updated to improve accuracy and usefulness.
 
-Think of this guide as a **living document**: it will grow over time with **new tutorials, practical examples, and insights** to help you make the most of your development environment.
+

@@ -102,34 +102,97 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
+
   - Getting Started:
       - Index: getting-started/index.md
       - Philosophy: getting-started/philosophy.md
-
       - Clipboard: getting-started/clipboard.md
       - Tiling: getting-started/Tiling.md
 
   - Desktop:
       - Launchers: Desktop/launchers/ulancher.md
+
       - Learning:
           - CodeCompass: Desktop/learning/codecompass/index.md
           - DistroSea: Desktop/learning/distrosea.md
-          - Education: Desktop/learning/education/index.md
-          - Game: Desktop/learning/game/index.md
-          - Interview: Desktop/learning/interview/index.md
+
+          - Education:
+              - Index: Desktop/learning/education/index.md
+              - Exercism: Desktop/learning/education/exercism.md
+              - FreeCodeCamp: Desktop/learning/education/freecodecamp.md
+              - FCC Interview Prep: Desktop/learning/education/freecodecamp-coding-interview-prep.md
+              - FCC Project Euler: Desktop/learning/education/freecodecamp-project-euler.md
+              - Hyperpolyglot: Desktop/learning/education/hyperpolyglot.md
+              - Learn Anything: Desktop/learning/education/learn-anything.md
+              - LeetCode: Desktop/learning/education/leetcode.md
+              - Missing Semester: Desktop/learning/education/missingsemester.md
+              - MIT OCW: Desktop/learning/education/mitocw.md
+              - Odin Project: Desktop/learning/education/odin.md
+              - OSSU: Desktop/learning/education/ossu.md
+              - Principles Wiki: Desktop/learning/education/principles-wiki.md
+              - Rayyan Coding School: Desktop/learning/education/rayyancodingschool.md
+              - Refactoring Guru: Desktop/learning/education/refactoring-guru.md
+              - Roadmap: Desktop/learning/education/roadmap.md
+              - Substack: Desktop/learning/education/substack.md
+
+          - Game:
+              - Index: Desktop/learning/game/index.md
+
+              - AI & Strategy:
+                  - Battle Snake: Desktop/learning/game/AI & Strategy/battle-snake.md
+                  - CodinGame: Desktop/learning/game/AI & Strategy/codingame.md
+                  - Robocode: Desktop/learning/game/AI & Strategy/robocode.md
+                  - Screeps: Desktop/learning/game/AI & Strategy/screeps.md
+
+              - SQL:
+                  - Murder Mystery: Desktop/learning/game/SQL/murder.md
+                  - SQL Noir: Desktop/learning/game/SQL/sqlnoir.md
+
+              - Vim:
+                  - OpenVim: Desktop/learning/game/vim/openvim.md
+
+              - Web:
+                  - CheckIO: Desktop/learning/game/web/checkio.md
+                  - CSS Grid Garden: Desktop/learning/game/web/cssgridgraden.md
+                  - Elevator Saga: Desktop/learning/game/web/elevator.md
+                  - Flexbox Defense: Desktop/learning/game/web/flexboxdefense.md
+                  - Flexbox Froggy: Desktop/learning/game/web/flexboxfroggy.md
+                  - Flukeout: Desktop/learning/game/web/flukeout.md
+                  - Untrusted Game: Desktop/learning/game/web/untrusted-game.md
+
+          - Interview:
+              - Index: Desktop/learning/interview/index.md
+              - AlgoMaster: Desktop/learning/interview/algomaster.md
+              - Algorithms Visualization: Desktop/learning/interview/algorithms-visualization-usfca.md
+              - Awesome LeetCode: Desktop/learning/interview/awesome-leetcode-resources.md
+              - Low Level Design: Desktop/learning/interview/awesomelowleveldesign.md
+              - IndiaBix: Desktop/learning/interview/indiabx.md
+              - Interview Guide: Desktop/learning/interview/interviewguide.md
+              - LeetCode: Desktop/learning/interview/leetcode.md
+              - Pramp: Desktop/learning/interview/pramp.md
+              - Puzzles: Desktop/learning/interview/puzzle.md
+              - System Design Primer: Desktop/learning/interview/systemdesignprimer.md
+              - TakeUForward: Desktop/learning/interview/takeuforward.md
+              - Tech Interview Handbook: Desktop/learning/interview/techinterviewhandbook.md
+              - VisuAlgo: Desktop/learning/interview/visualgo.md
+
           - Tipp10: Desktop/learning/tipp10.md
+
       - Media:
           - Communication: Desktop/media/communication.md
           - VLC: Desktop/media/vlc.md
+
       - Productivity:
           - Obsidian: Desktop/productivity/obsidian.md
           - Fluent Reader: Desktop/productivity/fluent-reader.md
           - Readest: Desktop/productivity/readest.md
           - Thunderbird Mail: Desktop/productivity/thunderbirdmail.md
+
       - System:
           - Remmina: Desktop/system/remmina.md
           - Timeshift: Desktop/system/timeshift.md
           - VirtualBox: Desktop/system/virtualbox.md
+
       - Utilities:
           - Flameshot: Desktop/utilities/flameshot.md
           - SafeEyes: Desktop/utilities/safeeyes.md
@@ -142,12 +205,15 @@ nav:
           - Neovim: Development/editors/neovim.md
           - Spyder: Development/editors/spyder.md
           - Micro: Development/editors/micro.md
+
       - Tooling:
           - GitHub CLI: Development/tooling/githubcli.md
           - Docker: Development/tooling/docker.md
           - Postman: Development/tooling/postman.md
           - Mise: Development/tooling/mise.md
-      - Legacy: Development/legacy/dosbox.md
+
+      - Legacy:
+          - DOSBox: Development/legacy/dosbox.md
 
   - Terminal:
       - Shell:
@@ -161,6 +227,7 @@ nav:
           - Mc: Terminal/shell/mc.md
           - Rsync: Terminal/shell/rsync.md
           - Samba: Terminal/shell/samba.md
+
       - CLI Tools:
           - Bat: Terminal/cli-tool/bat.md
           - Fd: Terminal/cli-tool/fd.md
@@ -173,6 +240,7 @@ nav:
           - TLDR: Terminal/cli-tool/tldr.md
           - Zoxide: Terminal/cli-tool/zoxide.md
           - Jdupes: Terminal/cli-tool/jdupes.md
+
       - TUI:
           - Index: Terminal/tui/index.md
           - LazyGit: Terminal/tui/lazygit.md
@@ -180,17 +248,20 @@ nav:
           - LazyDocker: Terminal/tui/lazydocker.md
           - Btop: Terminal/tui/btop.md
           - Fastfetch: Terminal/tui/fastfetch.md
+
       - Services:
           - SSH: Terminal/services/ssh.md
           - MySQL: Terminal/services/mysql.md
-      - Legacy: Terminal/legacy/flex_bison.md
-      - Index: Terminal/index.md
 
-  
+      - Legacy:
+          - Flex Bison: Terminal/legacy/flex_bison.md
+
+      - Index: Terminal/index.md
 
   - System Tools:
       - Power Management: system-tools/power-management.md
       - Extension: system-tools/extenstion.md
       - Language: system-tools/lanugage.md
 
-  - Bug Fix: bug-fix/CodeCampusTest3.md
+  - Bug Fix:
+      - CodeCampusTest3: bug-fix/CodeCampusTest3.md
